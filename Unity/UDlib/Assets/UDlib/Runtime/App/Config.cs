@@ -62,13 +62,12 @@ namespace UDlib.App {
 		/// 
 		/// <param name="fieldNames">字段名列表</param>
 		/// <param name="listener">监听方法</param>
-		/// <typeparam name="T">字段类型</typeparam>
 		/// 
 		/// <seealso cref="Bind{T}(string,System.Action{T})"/>
 		/// <author>Nianchen Deng</author>
-		public void Bind<T> (IEnumerable<string> fieldNames, Action<T> listener) {
+		public void Bind (IEnumerable<string> fieldNames, Action listener) {
 			foreach (var fieldName in fieldNames)
-				Bind (fieldName, listener);
+				Bind<object> (fieldName, value => listener ());
 		}
 
 		/// <summary>
@@ -109,7 +108,7 @@ namespace UDlib.App {
 			}
 		}
 
-		protected override void Awake () {
+		protected sealed override void Awake () {
 			base.Awake ();
 			_CheckFieldSupport ();
 			InvokeRepeating (nameof(_CheckAndSaveConfig), 1.0f, 1.0f);
