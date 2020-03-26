@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Dlib_Conversion\glm_cv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Conversion\global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Conversion\qt_cv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Conversion\qt_glm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Conversion\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Conversion\targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Conversion\unity_glm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\All.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\Color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\Cursor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\CvPointEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\CvProcessBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\Image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\Line2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\MathEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\MatrixIterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\Painter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\PixelFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\PixelOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\PolyFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\PolyFunc2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\Rect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\Registration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_CvExt\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\Charuco.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\CharucoDetector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\Detector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\GridPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\LineGrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\LineGridDetector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\Pattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\UniformGridPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\BlobDetector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\Conn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\Connection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\CrossPointExtractor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\GridInfer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\Line.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\LineExtractor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\LineGridDetector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\LinePoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\LineSeq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Pattern\_Internal\SegInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Basic\ArrayRef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Basic\Basic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Basic\Exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Basic\global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Basic\MathExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Basic\Ptr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Basic\StringUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\EStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\Frame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\Identifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\Intrinsic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\LoadModuleFailedException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\Property.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\VideoCameraException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\_CameraImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\_SubModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dlib_Cam\_System.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Dlib_CvExt\Color.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_CvExt\CvProcessBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_CvExt\Image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_CvExt\Line2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_CvExt\Painter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_CvExt\PixelFormat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_CvExt\PixelOp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_CvExt\PolyFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_CvExt\PolyFunc2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_CvExt\Registration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\Charuco.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\CharucoDetector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\GridPattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\LineGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\LineGridDetector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\UniformGridPattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\_Internal\BlobDetector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\_Internal\Connection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\_Internal\CrossPointExtractor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\_Internal\GridInfer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\_Internal\Line.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\_Internal\LineExtractor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\_Internal\LineSeq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\_Internal\SegInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Pattern\_Internal\_LineGridDetector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Basic\Basic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Basic\Exception.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Basic\StringUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Cam\Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Cam\Frame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Cam\Identifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Cam\Intrinsic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Cam\LoadModuleFailedException.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Cam\VideoCameraException.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dlib_Cam\_SubModule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

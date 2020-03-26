@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Dlib_Basic\ArrayRef.h" />
+    <ClInclude Include="..\Dlib_Basic\Basic.h" />
+    <ClInclude Include="..\Dlib_Basic\Exception.h" />
+    <ClInclude Include="..\Dlib_Basic\global.h" />
+    <ClInclude Include="..\Dlib_Basic\MathExt.h" />
+    <ClInclude Include="..\Dlib_Basic\Ptr.h" />
+    <ClInclude Include="..\Dlib_Basic\StringUtils.h" />
+    <ClInclude Include="..\Dlib_Cam\Camera.h" />
+    <ClInclude Include="..\Dlib_Cam\EStatus.h" />
+    <ClInclude Include="..\Dlib_Cam\Frame.h" />
+    <ClInclude Include="..\Dlib_Cam\global.h" />
+    <ClInclude Include="..\Dlib_Cam\Identifier.h" />
+    <ClInclude Include="..\Dlib_Cam\Intrinsic.h" />
+    <ClInclude Include="..\Dlib_Cam\LoadModuleFailedException.h" />
+    <ClInclude Include="..\Dlib_Cam\Property.h" />
+    <ClInclude Include="..\Dlib_Cam\VideoCameraException.h" />
+    <ClInclude Include="..\Dlib_Cam\_CameraImpl.h" />
+    <ClInclude Include="..\Dlib_Cam\_SubModule.h" />
+    <ClInclude Include="..\Dlib_Cam\_System.h" />
+    <ClInclude Include="..\Dlib_Conversion\glm_cv.h" />
+    <ClInclude Include="..\Dlib_Conversion\global.h" />
+    <ClInclude Include="..\Dlib_Conversion\qt_cv.h" />
+    <ClInclude Include="..\Dlib_Conversion\qt_glm.h" />
+    <ClInclude Include="..\Dlib_Conversion\stdafx.h" />
+    <ClInclude Include="..\Dlib_Conversion\targetver.h" />
+    <ClInclude Include="..\Dlib_Conversion\unity_glm.h" />
+    <ClInclude Include="..\Dlib_CvExt\All.h" />
+    <ClInclude Include="..\Dlib_CvExt\Color.h" />
+    <ClInclude Include="..\Dlib_CvExt\Cursor.h" />
+    <ClInclude Include="..\Dlib_CvExt\CvPointEx.h" />
+    <ClInclude Include="..\Dlib_CvExt\CvProcessBase.h" />
+    <ClInclude Include="..\Dlib_CvExt\global.h" />
+    <ClInclude Include="..\Dlib_CvExt\Image.h" />
+    <ClInclude Include="..\Dlib_CvExt\Line2D.h" />
+    <ClInclude Include="..\Dlib_CvExt\MathEx.h" />
+    <ClInclude Include="..\Dlib_CvExt\MatrixIterator.h" />
+    <ClInclude Include="..\Dlib_CvExt\Painter.h" />
+    <ClInclude Include="..\Dlib_CvExt\PixelFormat.h" />
+    <ClInclude Include="..\Dlib_CvExt\PixelOp.h" />
+    <ClInclude Include="..\Dlib_CvExt\PolyFunc.h" />
+    <ClInclude Include="..\Dlib_CvExt\PolyFunc2.h" />
+    <ClInclude Include="..\Dlib_CvExt\Rect.h" />
+    <ClInclude Include="..\Dlib_CvExt\Registration.h" />
+    <ClInclude Include="..\Dlib_CvExt\stdafx.h" />
+    <ClInclude Include="..\Dlib_Pattern\Charuco.h" />
+    <ClInclude Include="..\Dlib_Pattern\CharucoDetector.h" />
+    <ClInclude Include="..\Dlib_Pattern\Detector.h" />
+    <ClInclude Include="..\Dlib_Pattern\global.h" />
+    <ClInclude Include="..\Dlib_Pattern\GridPattern.h" />
+    <ClInclude Include="..\Dlib_Pattern\LineGrid.h" />
+    <ClInclude Include="..\Dlib_Pattern\LineGridDetector.h" />
+    <ClInclude Include="..\Dlib_Pattern\Pattern.h" />
+    <ClInclude Include="..\Dlib_Pattern\UniformGridPattern.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\BlobDetector.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\Conn.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\Connection.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\CrossPointExtractor.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\GridInfer.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\Line.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\LineExtractor.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\LineGridDetector.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\LinePoint.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\LineSeq.h" />
+    <ClInclude Include="..\Dlib_Pattern\_Internal\SegInfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Dlib_Basic\Basic.cpp" />
+    <ClCompile Include="..\Dlib_Basic\Exception.cpp" />
+    <ClCompile Include="..\Dlib_Basic\StringUtils.cpp" />
+    <ClCompile Include="..\Dlib_Cam\Camera.cpp" />
+    <ClCompile Include="..\Dlib_Cam\Frame.cpp" />
+    <ClCompile Include="..\Dlib_Cam\Identifier.cpp" />
+    <ClCompile Include="..\Dlib_Cam\Intrinsic.cpp" />
+    <ClCompile Include="..\Dlib_Cam\LoadModuleFailedException.cpp" />
+    <ClCompile Include="..\Dlib_Cam\VideoCameraException.cpp" />
+    <ClCompile Include="..\Dlib_Cam\_SubModule.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\Color.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\CvProcessBase.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\Image.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\Line2D.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\Painter.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\PixelFormat.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\PixelOp.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\PolyFunc.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\PolyFunc2.cpp" />
+    <ClCompile Include="..\Dlib_CvExt\Registration.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\Charuco.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\CharucoDetector.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\GridPattern.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\LineGrid.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\LineGridDetector.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\UniformGridPattern.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\_Internal\BlobDetector.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\_Internal\Connection.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\_Internal\CrossPointExtractor.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\_Internal\GridInfer.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\_Internal\Line.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\_Internal\LineExtractor.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\_Internal\LineSeq.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\_Internal\SegInfo.cpp" />
+    <ClCompile Include="..\Dlib_Pattern\_Internal\_LineGridDetector.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{9964F6FB-7F4B-4C87-9717-8C484BCBE1E2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DlibAll</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Props\Common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Props\Common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Props\Common.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Props\Common.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\dengn\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\dengn\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_UDlib.-667947806.00" t="ExcludeRecursive" />
+    <e p="F:\Projects\Dlib\Unity\UDlib" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="PackageDeployUtility.cs" t="Include" />
+        <e p="PackageDeployWindow.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="Sirenix" t="Include">
+            <e p="Odin Inspector" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
+                  <e p="BuildAOTAutomation.cs" t="Include" />
+                  <e p="EnsureOdinInspectorDefine.cs" t="Include" />
+                  <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
+                  <e p="SyncListDrawer.cs" t="Include" />
+                  <e p="SyncVarAttributeDrawer.cs" t="Include" />
+                  <e p="Vector2IntMinMaxAttributeDrawer.cs" t="Include" />
+                  <e p="VectorIntDrawers.cs" t="Include" />
+                  <e p="VectorIntPropertyResolvers.cs" t="Include" />
+                </e>
+                <e p="SerializedNetworkBehaviour.cs" t="Include" />
+                <e p="Sirenix.OdinInspector.CompatibilityLayer.asmdef" t="Include" />
+                <e p="VectorIntFormatters.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Test" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="ETest.cs" t="Include" />
+            <e p="Plugin.cs" t="Include" />
+            <e p="Struct.cs" t="Include" />
+            <e p="Struct2.cs" t="Include" />
+            <e p="Struct3.cs" t="Include" />
+            <e p="TestBehaviour.cs" t="Include" />
+          </e>
+        </e>
+        <e p="UDlib" t="Include">
+          <e p="Editor" t="Include">
+            <e p="ImageSourcePreview.cs" t="Include" />
+            <e p="TexImagePreview.cs" t="Include" />
+            <e p="Unity.UDlib.Editor.asmdef" t="Include" />
+            <e p="UpdatePackage.cs" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="App" t="Include">
+              <e p="App.cs" t="Include" />
+              <e p="Config.cs" t="Include" />
+              <e p="Exceptions" t="Include">
+                <e p="ModeInitialFailed.cs" t="Include" />
+                <e p="ModeNotFound.cs" t="Include" />
+                <e p="ServiceException.cs" t="Include" />
+              </e>
+              <e p="Internal" t="Include">
+                <e p="_App.cs" t="Include" />
+                <e p="_Mode.cs" t="Include" />
+                <e p="_Service.cs" t="Include" />
+                <e p="_ServiceManager.cs" t="Include" />
+                <e p="_TimerManager.cs" t="Include" />
+              </e>
+              <e p="Mode.cs" t="Include" />
+              <e p="Service.cs" t="Include" />
+              <e p="Timer.cs" t="Include" />
+            </e>
+            <e p="Cam" t="Include">
+              <e p="CameraObject.cs" t="Include" />
+              <e p="CameraService.cs" t="Include" />
+              <e p="Device.cs" t="Include" />
+              <e p="Frame.cs" t="Include" />
+              <e p="Intrinsic.cs" t="Include" />
+              <e p="Plugin.cs" t="Include" />
+              <e p="Property.cs" t="Include" />
+              <e p="Viewport.cs" t="Include" />
+            </e>
+            <e p="Core" t="Include">
+              <e p="Array.cs" t="Include" />
+              <e p="CObject.cs" t="Include" />
+              <e p="Exceptions" t="Include">
+                <e p="CThrownException.cs" t="Include" />
+                <e p="DuplicateInitializationException.cs" t="Include" />
+              </e>
+              <e p="Framework.cs" t="Include" />
+              <e p="Image" t="Include">
+                <e p="IImageSource.cs" t="Include" />
+                <e p="ImageChannel.cs" t="Include" />
+                <e p="ImageSourcePreviewer.cs" t="Include" />
+                <e p="Materials" t="Include">
+                  <e p="UnlitMultiLayer.shader" t="Include" />
+                </e>
+                <e p="MultiLayerImages.cs" t="Include" />
+                <e p="NativeImage.cs" t="Include" />
+                <e p="PixelFormat.cs" t="Include" />
+                <e p="RoiControl.cs" t="Include" />
+                <e p="TexImage.cs" t="Include" />
+              </e>
+              <e p="Internal" t="Include">
+                <e p="_NativeArray.cs" t="Include" />
+              </e>
+              <e p="Mathmatics" t="Include">
+                <e p="Curve.cs" t="Include" />
+                <e p="Line.cs" t="Include" />
+                <e p="Matrix3x3.cs" t="Include" />
+                <e p="MatrixEx.cs" t="Include" />
+                <e p="NormalDistribution.cs" t="Include" />
+                <e p="Poly3Curve.cs" t="Include" />
+                <e p="RigidTransform.cs" t="Include" />
+                <e p="Vector3Byte.cs" t="Include" />
+                <e p="Vector4Byte.cs" t="Include" />
+                <e p="VectorEx.cs" t="Include" />
+              </e>
+              <e p="Plugin.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+              <e p="SingletonBehavior.cs" t="Include" />
+              <e p="Utils" t="Include">
+                <e p="BinaryIOEx.cs" t="Include" />
+                <e p="Event.cs" t="Include" />
+                <e p="ExternCommand.cs" t="Include" />
+                <e p="FileLogger.cs" t="Include" />
+                <e p="Time.cs" t="Include" />
+                <e p="ULogger.cs" t="Include" />
+                <e p="UnityEx.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Cv" t="Include">
+              <e p="BinaryIOEx.cs" t="Include" />
+              <e p="Calib3D.cs" t="Include" />
+              <e p="Matrix.cs" t="Include" />
+              <e p="MatrixEx.cs" t="Include" />
+              <e p="Painter.cs" t="Include" />
+              <e p="PerspectiveProjection.cs" t="Include" />
+              <e p="Plugin.cs" t="Include" />
+              <e p="Poly.cs" t="Include" />
+              <e p="Solver.cs" t="Include" />
+              <e p="UnityEx.cs" t="Include" />
+            </e>
+            <e p="Mesh" t="Include">
+              <e p="CoordLines.cs" t="Include" />
+              <e p="GridMesh.cs" t="Include" />
+              <e p="Lines.cs" t="Include" />
+              <e p="QuadMesh.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="UDlib_Mesh_LineShader.shader" t="Include" />
+              </e>
+              <e p="ScriptMesh.cs" t="Include" />
+            </e>
+            <e p="Net" t="Include">
+              <e p="Internal" t="Include">
+                <e p="_NetIoBase.cs" t="Include" />
+                <e p="_NetReader.cs" t="Include" />
+                <e p="_NetTcpReader.cs" t="Include" />
+                <e p="_NetUdpReader.cs" t="Include" />
+                <e p="_NetWriter.cs" t="Include" />
+                <e p="_SubPacketHead.cs" t="Include" />
+                <e p="_TcpCheckPacket.cs" t="Include" />
+                <e p="_TcpClosePacket.cs" t="Include" />
+                <e p="_TcpServiceBase.cs" t="Include" />
+              </e>
+              <e p="NetType.cs" t="Include" />
+              <e p="TcpClient.cs" t="Include" />
+              <e p="TcpHost.cs" t="Include" />
+              <e p="UdpReceiveService.cs" t="Include" />
+              <e p="UdpSendService.cs" t="Include" />
+            </e>
+            <e p="Packet" t="Include">
+              <e p="Internal" t="Include">
+                <e p="_PacketHandler.cs" t="Include" />
+                <e p="_PacketHandlerBase.cs" t="Include" />
+                <e p="_RawPacket.cs" t="Include" />
+              </e>
+              <e p="Packet.cs" t="Include" />
+              <e p="PacketForwardService.cs" t="Include" />
+              <e p="Protocal.cs" t="Include" />
+            </e>
+            <e p="Pattern" t="Include">
+              <e p="Charuco.cs" t="Include" />
+              <e p="GridPattern.cs" t="Include" />
+              <e p="LineGrid.cs" t="Include" />
+              <e p="Pattern.cs" t="Include" />
+              <e p="PatternDetector.cs" t="Include" />
+              <e p="Plugin.cs" t="Include" />
+            </e>
+            <e p="Unity.UDlib.asmdef" t="Include" />
+          </e>
+          <e p="Samples" t="Include">
+            <e p="CameraViewer" t="Include">
+              <e p="App.cs" t="Include" />
+              <e p="Config.cs" t="Include" />
+              <e p="Tester.cs" t="Include" />
+            </e>
+            <e p="CvPainter" t="Include">
+              <e p="PaintExample.cs" t="Include" />
+            </e>
+            <e p="CvTriangulatePoints" t="Include">
+              <e p="CvTriangulatePoints.cs" t="Include" />
+            </e>
+            <e p="PatternDetect" t="Include">
+              <e p="PatternDetectSelf.cs" t="Include" />
+            </e>
+            <e p="SimpleApp" t="Include">
+              <e p="App.cs" t="Include" />
+              <e p="Config.cs" t="Include" />
+              <e p="ModeA.cs" t="Include" />
+              <e p="ModeB.cs" t="Include" />
+              <e p="ServiceA.cs" t="Include" />
+              <e p="ServiceB.cs" t="Include" />
+              <e p="ServiceC.cs" t="Include" />
+            </e>
+            <e p="Unity.UDlib.Samples.asmdef" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="UDlib.sln" t="IncludeFlat" />
+      <e p="Unity.UDlib.csproj" t="IncludeRecursive" />
+      <e p="Unity.UDlib.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.UDlib.Samples.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

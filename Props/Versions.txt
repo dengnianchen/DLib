@@ -1,0 +1,5 @@
+Dependencies:
+* OpenCV: 4.2.0
+  → Tbb: 2018_20180618
+* Spinnaker: 1.27.0.48
+* Glm: 0.9.7.1

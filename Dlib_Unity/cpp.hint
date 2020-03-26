@@ -1,0 +1,2 @@
+#define DLIBUNITY_API __declspec(dllexport)
+#define DLIBUNITY_API __declspec(dllimport)

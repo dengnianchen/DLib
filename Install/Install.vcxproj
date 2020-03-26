@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C3EBDF38-06F0-4C99-A3B7-5EC6111F2D09}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeBuildCommandLine>@RMDIR /s /q $(LIB_HOME)\Dlib\include
+@RMDIR /s /q $(LIB_HOME)\Dlib\$(PlatformToolset)_$(Platform)\
+@CD $(SolutionDir)
+@FOR /d %%f IN (Dlib_*) DO @XCOPY %%f\*.h %LIB_HOME%\Dlib\include\%%f\ /EXCLUDE:Install\exclude.txt
+@XCOPY $(Platform)\$(Configuration)\*.lib %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\lib\
+@XCOPY $(Platform)\$(Configuration)\*.dll %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\bin\
+@XCOPY $(Platform)\$(Configuration)\External\*.dll %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\bin\External\</NMakeBuildCommandLine>
+    <NMakePreprocessorDefinitions>_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>@RMDIR /s /q $(LIB_HOME)\Dlib\include
+@RMDIR /s /q $(LIB_HOME)\Dlib\$(PlatformToolset)_$(Platform)\
+@CD $(SolutionDir)
+@FOR /d %%f IN (Dlib_*) DO @XCOPY %%f\*.h %LIB_HOME%\Dlib\include\%%f\ /EXCLUDE:Install\exclude.txt
+@XCOPY $(Platform)\$(Configuration)\*.lib %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\lib\
+@XCOPY $(Platform)\$(Configuration)\*.dll %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\bin\
+@XCOPY $(Platform)\$(Configuration)\External\*.dll %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\bin\External\</NMakeBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>@RMDIR /s /q $(LIB_HOME)\Dlib\include
+@RMDIR /s /q $(LIB_HOME)\Dlib\$(PlatformToolset)_$(Platform)\
+@CD $(SolutionDir)
+@FOR /d %%f IN (Dlib_*) DO @XCOPY %%f\*.h %LIB_HOME%\Dlib\include\%%f\ /EXCLUDE:Install\exclude.txt
+@XCOPY $(Platform)\$(Configuration)\*.lib %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\lib\
+@XCOPY $(Platform)\$(Configuration)\*.dll %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\bin\
+@XCOPY $(Platform)\$(Configuration)\External\*.dll %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\bin\External\</NMakeBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <NMakeBuildCommandLine>@RMDIR /s /q $(LIB_HOME)\Dlib\include
+@RMDIR /s /q $(LIB_HOME)\Dlib\$(PlatformToolset)_$(Platform)\
+@CD $(SolutionDir)
+@FOR /d %%f IN (Dlib_*) DO @XCOPY %%f\*.h %LIB_HOME%\Dlib\include\%%f\ /EXCLUDE:Install\exclude.txt
+@XCOPY $(Platform)\$(Configuration)\*.lib %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\lib\
+@XCOPY $(Platform)\$(Configuration)\*.dll %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\bin\
+@XCOPY $(Platform)\$(Configuration)\External\*.dll %LIB_HOME%\Dlib\$(PlatformToolset)_$(Platform)\$(Configuration)\bin\External\</NMakeBuildCommandLine>
+    <NMakePreprocessorDefinitions>NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dlib_All\Dlib_All.vcxproj">
+      <Project>{9964f6fb-7f4b-4c87-9717-8c484bcbe1e2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dlib_Basic\Dlib_Basic.vcxproj">
+      <Project>{8aa11004-664a-4600-ae12-245fafc861a2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dlib_Cam\Dlib_Cam.vcxproj">
+      <Project>{72718c10-4198-4337-81b3-f62b9691c91b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dlib_CvExt\Dlib_CvExt.vcxproj">
+      <Project>{66ad256d-1135-44db-b614-60bdca4bfa72}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dlib_Pattern\Dlib_Pattern.vcxproj">
+      <Project>{de752438-6b75-4eca-9aac-91b3b6eb0563}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Dlib_Unity\Dlib_Unity.vcxproj">
+      <Project>{cb0ee714-a2ac-48f5-818f-d2168be69ad1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\External\Dlib_CvCam\Dlib_CvCam.vcxproj">
+      <Project>{1cc8fd03-19dd-4bd3-b238-6c209647d67b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\External\Dlib_SpinnakerCam\Dlib_SpinnakerCam.vcxproj">
+      <Project>{5ce8f5b4-a13a-4493-8d5c-22652b7f9bf9}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

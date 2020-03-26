@@ -1,0 +1,17 @@
+{
+    "name": "Unity.UDlib.Editor",
+    "references": [
+        "GUID:65a21014be0206148b204750dc581624"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,8 @@
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define NS_DLIB_CAM_BEGIN namespace Dlib { namespace Cam {
+#define NS_DLIB_CAM_END	} }
+#define NS_DLIB_CAM_EX_BEGIN namespace Dlib { namespace Cam { namespace Exception {
+#define NS_DLIB_CAM_EX_END } } }
+#define DLIB_CAM_INTERFACE
